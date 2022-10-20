@@ -1,0 +1,96 @@
+:root {
+  --font-size: 15px;
+
+  --background-footer: rgba(255, 0, 0, 0.63);
+  --background-header: #0b4b93;
+  --ship1-color: #ffb3ba;
+  --ship2-color: #ffdfba;
+  --ship3-color: #ffffba;
+  --ship4-color: #baffc9;
+  --background-editing: #bae1ff3f;
+  --grid-size: 20px;
+  background-color: whitesmoke;
+}
+.editing {
+  background-color: var(--background-editing);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+.General {
+  background-color: var(--background-header);
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 2px;
+  text-align: center;
+}
+.General > h1 > span {
+  padding: 5px;
+}
+.General > h4 > ul {
+  padding: 0;
+}
+.General > h4 > ul > li {
+  display: inline;
+  padding: 5px;
+}
+.workExperience {
+  font-size: medium;
+}
+.workExperience > h2 {
+  border-bottom: 1px solid #bae1ff;
+}
+.education {
+  font-size: medium;
+}
+.education > h2 {
+  border-bottom: 1px solid #bae1ff;
+}
+.educationInfo {
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+}
+.eduDate {
+  display: flex;
+  width: 200px;
+}
+.schoolInfo {
+  display: flex;
+  width: 70%;
+  padding-left: 30px;
+}
+.degree {
+  font-weight: bold;
+}
+.school {
+  padding-left: 10px;
+}
+.job {
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+}
+.jobDate {
+  display: flex;
+  width: 200px;
+}
+.jobInfo {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 30px;
+}
+.companyInfo {
+  display: flex;
+}
+.positionTitle {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.companyName {
+  padding-left: 5px;
+}
